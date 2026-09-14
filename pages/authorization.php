@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <link rel="stylesheet" href="../ASSETS/css/style.css">
+    <link rel="stylesheet" href="../content/css/style.css">
     <meta charset="utf-8">
     <title> Моё портфолио</title>
     <meta name="description"
@@ -11,12 +11,12 @@
 <body>
    
 <div class="back">
-   <iframe src="../Pages/navigation.html" width="100%" style="display: block; border: none; height: 60px;"></iframe>
+   <iframe src="navigation.php" width="100%" style="display: block; border: none; height: 60px;"></iframe>
    <div class="reg">
 
    <div class="registration-form">
     <h1>Вход</h1>
-    <form  <form method="post" action="./main.html" autocomplete="off">
+    <form  <form method="post" action="./main.php" autocomplete="off">
       <div class="form-group">
         <label for="fio">ФИО:</label>
         <input type="text" id="fio" name="fio" placeholder="Кострова Василина Владимировна">

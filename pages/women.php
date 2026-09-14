@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <link rel="stylesheet" href="../ASSETS/css/style.css">
+    <link rel="stylesheet" href="../content/css/style.css">
     <meta charset="utf-8">
     <title> Моё портфолио</title>
     <meta name="description"
@@ -10,8 +10,11 @@
 </head> 
 <body>
    
-<div class="back">
-   <iframe src="../Pages/navigation.html" width="100%" style="display: block; border: none; height: 60px;"></iframe>
-  </div>
+   <iframe src="navigation.html" width="100%" style="display: block; border: none; height: 60px;"></iframe>
+   <div class="actia">
+   <div class="main-image">
+    <div class="content"></div>
+   </div>
+   </div>
 </body>
 </html>

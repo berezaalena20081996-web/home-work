@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <link rel="stylesheet" href="../ASSETS/css/style.css">
+    <link rel="stylesheet" href="../content/css/style.css">
     <meta charset="utf-8">
     <title> Моё портфолио</title>
     <meta name="description"
@@ -10,21 +10,21 @@
 </head> 
 <body>
    
-   <iframe src="../Pages/navigation.html" width="100%" style="display: block; border: none; height: 60px;"></iframe>
+   <iframe src="navigation.php" width="100%" style="display: block; border: none; height: 60px;"></iframe>
     <main class="main-content">
         <h1 class="page-title">Последняя любовь</h1>
         <section class="product-layout">
             <div class="column-left">
                 <div class="image-large">
-        <img width="170" height="170" src="../ASSETS/images/tovar1.png" alt="Первый проект">
+        <img width="170" height="170" src="content/images/tovar1.png" alt="Первый проект">
                 </div>
             </div>
             <div class="column-middle">
                 <div class="image-small">
-                     <img width="170" height="170" src="../ASSETS/images/tovar2.png" alt="Первый проект">
+                     <img width="170" height="170" src="content/images/tovar2.png" alt="Первый проект">
                 </div>
                 <div class="image-small">
-                    <img width="170" height="170" src="../ASSETS/images/tovar3.png" alt="Первый проект">
+                    <img width="170" height="170" src="content/images/tovar3.png" alt="Первый проект">
                 </div>
             </div>
             <div class="column-right">

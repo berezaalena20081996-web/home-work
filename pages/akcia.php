@@ -4,12 +4,12 @@
 <head>
     <meta charset="utf-8">
     <meta name="description" content="экзамензационная работа">
-    <meta name="author" content="Михаил">
+    <meta name="author" content="Алёна">
     <title>мое портфолио</title>
-    <link rel="stylesheet" href="../ASSETS/css/style.css">
+    <link rel="stylesheet" href="../content/css/style.css">
 </head>
 <body>
-     <iframe src="./nav.html" width="100%" height="10%" frameborder="0"></iframe>
+     <iframe src="nav.php" width="100%" height="10%" frameborder="0"></iframe>
     <div class="actia_back">
         <div class="content">  
             <div class="actia">

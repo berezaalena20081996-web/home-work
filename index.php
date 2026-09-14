@@ -1,19 +1,19 @@
+
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <link rel="stylesheet" href="ASSETS/css/style.css">
+    <link rel="stylesheet" href="content/css/style.css">
     <meta charset="utf-8">
     <title> Моё портфолио</title>
     <meta name="description"
         content="Сай на тему Винтажный магазин одежды.Он создан для развлекательных целей и не несет вреда потребителю">
     <meta name="author" content="Береза Алёна Олеговна">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head> 
 <body>
    
 <div class="back">
     <div class="text-navig">
-   <iframe src="Pages/navigation.html" width="100%" style="display: block; border: none; height: 60px;"></iframe></div>
+   <iframe src="./pages/navigation.php" width="100%" style="display: block; border: none; height: 60px;"></iframe></div>
    <div class="content">
    <div class="main_scrin">
      <div class="text-glavnoe">
@@ -24,7 +24,7 @@
         <div class="text-card">
             <div class="card2">    
   <button class="transparent-btn">
-   <a href="./Pages/catalog.html"> дотронуться до истории</button></a> </div>
+   <a href="catalog.php"> дотронуться до истории</button></a> </div>
 </div>
     </div>
    </div>
@@ -33,7 +33,6 @@
    <div class="text-slogan">
     <p>О нас </p></div>
        <div class="card4">
-        
        </div>
 <div class="rabotnici">
     <div class="rabotnic1">
@@ -69,26 +68,26 @@
     <p>Каталог </p></div>
     <div class="pol">
         <div class="women">
-        <img src="./ASSETS/images/women.png">
-     <a href="./Pages/women.html"><button class="transparent-btn1">
+        <img src="./content/images/women.png">
+     <a href="women.php"><button class="transparent-btn1">
     женская</button></a>
 </div>
 <div class="men">
-    <img src="./ASSETS/images/men.png">
-    <a href="./Pages/man.html"><button class="transparent-btn1">
+    <img src="./content/images/men.png">
+    <a href="man.php"><button class="transparent-btn1">
     мужская</button></a>
 </div>
     </div>
     <div class="acs">
-        <img src="./ASSETS/images/acs.png">
-    <a href="./Pages/akk.html"><button class="transparent-btn1">
+        <img src="./content/images/acs.png">
+    <a href="akk.php"><button class="transparent-btn1">
     аксессуары</button></a>
     </div>
 </div>
 <div class="services">
     
      <div class="text-slogan">
-    <p>Мои проекты</p></div>
+    <p>Услуги</p></div>
     <div class="main_serves">
     <div class="services1">
         <div class="foto_services1"></div>
@@ -118,7 +117,7 @@
 <div class="rabota">
     
      <div class="text-rabota">
-    <p>Услуги </p></div>
+    <p>Мои проекты </p></div>
     <div class="main_rabota">
     <div class="rabota1">
         <div class="foto_rabota1"></div>
@@ -160,7 +159,7 @@
     <footer class="footer">
         <div class="footer-container">
             <div class="footer-logo">
-                <a href="#"><img src="./ASSETS/images/logo.png"></a>
+                <a href="#"><img src="../content/images/logo.png"></a>
             </div>
             <div class="footer-column">
                 <h3 class="column-title">Информация</h3>
@@ -177,12 +176,14 @@
             <div class="footer-column">
                 <h3 class="column-title">Соц. сети</h3>
                 <div class="social-icons">
-                    <a href="#"><img src="./ASSETS/images/tvit.png"></a>
-        <a href="#"><img src="./ASSETS/images/tg.png"></a>
-        <a href="#"><img src="./ASSETS/images/ynub.png"></a>
+                    <a href="#"><img src="../content/images/tvit.png"></a>
+        <a href="#"><img src="../content/images/tg.png"></a>
+        <a href="#"><img src="../content/images/ynub.png"></a>
                 </div>
             </div>
         </div>
+
     </footer>
+   
 </body>
 </html>

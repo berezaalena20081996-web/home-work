@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <link rel="stylesheet" href="../ASSETS/css/style.css">
+    <link rel="stylesheet" href="../content/css/style.css">
     <meta charset="utf-8">
     <title> Моё портфолио</title>
     <meta name="description"
@@ -11,7 +11,7 @@
 <body>
    
 <div class="back">
-    <iframe src="../Pages/navigation.html" width="100%" style="display: block; border: none; height: 60px;"></iframe>
+    <iframe src="navigation.php" width="100%" style="display: block; border: none; height: 60px;"></iframe>
     <div class="content">
    <div class="text-glavnoe">
    <p>Каталог</p></div> 
@@ -26,7 +26,7 @@
             <h2 class="section-title">Дамы</h2>
             <div class="style-item">
                 <div class="circle-image">
-                    <img width="170" height="170" src="../ASSETS/images/asortim1.png" alt="Первый проект">
+                    <img width="170" height="170" src="../content/images/asortim1.png" alt="Первый проект">
                 </div>
                 <div class="style-content">
                     <h3>Барокко</h3>
@@ -35,7 +35,7 @@
             </div>
             <div class="style-item">
                 <div class="circle-image">
-                     <img width="170" height="170" src="../ASSETS/images/asortim2.png" alt="Первый проект">
+                     <img width="170" height="170" src="../content/images/asortim2.png" alt="Первый проект">
                 </div>
                 <div class="style-content">
                     <h3>Рококо</h3>
@@ -44,7 +44,7 @@
             </div>
             <div class="style-item">
                 <div class="circle-image">
-                    <img width="170" height="170" src="../ASSETS/images/asortim3.png" alt="Первый проект">
+                    <img width="170" height="170" src="../content/images/asortim3.png" alt="Первый проект">
                 </div>
                 <div class="style-content">
                     <h3>Романтизм</h3>
@@ -58,7 +58,7 @@
             <div class="products-grid">
                 <div class="product-card">
                     <div class="product-image">
-     <img width="170" height="170" src="../ASSETS/images/cartoca.png" alt="Первый проект">
+     <img width="170" height="170" src="../content/images/cartoca.png" alt="Первый проект">
                     </div>
                     <div class="product-info">
                         <h4>«Зелёный шёпот Рококо»</h4>
@@ -68,7 +68,7 @@
                 </div>
                 <div class="product-card">
                     <div class="product-image">
-                        <img width="170" height="170" src="../ASSETS/images/cartoca2.png" alt="Первый проект">
+                        <img width="170" height="170" src="../content/images/cartoca2.png" alt="Первый проект">
                     </div>
                     <div class="product-info">
                         <h4>Искусство флирта эпохи галантности. Глубокий синий шёлк, пышные рукава и аксессуар, который позволяет вам быть то открытой, то загадочной. Создайте свой сценарий любви.</h4>
@@ -77,9 +77,9 @@
                 </div>
                 <div class="product-card">
                     <div class="product-image">
-                         <img width="170" height="170" src="../ASSETS/images/cartoca3.png" alt="Первый проект">
+                         <img width="170" height="170" src="../content/images/cartoca3.png" alt="Первый проект">
                     </div>
-                    <a href="tovar.html">
+                    <a href="tovar.php">
                     <div class="product-info">
                         <h4>Искусство флирта эпохи галантности. Глубокий синий шёлк, пышные рукава и аксессуар, который позволяет вам быть то открытой, то загадочной. Создайте свой сценарий любви.</h4>
                         <div class="price">52 000 руб</div>
@@ -94,7 +94,7 @@
 <footer class="footer">
         <div class="footer-container">
             <div class="footer-logo">
-                <a href="#"><img src="../ASSETS/images/logo.png"></a>
+                <a href="#"><img src="../content/images/logo.png"></a>
             </div>
             <div class="footer-column">
                 <h3 class="column-title">Информация</h3>
@@ -111,9 +111,9 @@
             <div class="footer-column">
                 <h3 class="column-title">Соц. сети</h3>
                 <div class="social-icons">
-                    <a href="#"><img src="../экзамен/content/images/tvit.png"></a>
-        <a href="#"><img src="../экзамен/content/images/tg.png"></a>
-        <a href="#"><img src="../экзамен/content/images/ynub.png"></a>
+                    <a href="#"><img src="../content/images/tvit.png"></a>
+        <a href="#"><img src="../content/images/tg.png"></a>
+        <a href="#"><img src="../content/images/ynub.png"></a>
                 </div>
    
 

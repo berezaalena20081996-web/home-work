@@ -1,14 +1,60 @@
+
 html, body {
     margin: 0 !important;
     padding: 0 !important;
-    background-color: rgb(214, 205, 145);
+    background-color: rgb(239, 244, 240);
       overflow-x: hidden;
 }
+.dark-theme body{
+     margin: 0 !important;
+    padding: 0 !important;
+    background-color: rgb(104, 92, 44);
+      overflow-x: hidden;
+}
+.dark-theme #navigation{
+    background-color: rgb(93, 68, 4);
+    padding: 12px 0;
+    width: 100%; 
+}
+.dark-theme column-links a {
+    text-decoration: none;
+   color: #c1b17c;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+.dark-theme column-links a:hover {
+   color: #c1b17c;}
+
+.dark-theme contact-phone {
+    font-size: 16px;
+    color: #c1b17c;
+    margin-bottom: 8px;
+}
+.dark-theme contact-address {
+    font-size: 16px;
+   color: #c1b17c;
+    line-height: 1.5;
+}
+
+.dark-theme footer {
+    background-color: #3a2207;
+    padding: 50px 80px;
+    width: 100%;
+}
+.dark-theme column-title {
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: #c1b17c;
+}
 #navigation {
-    background-color: rgb(116, 88, 28);
+    background-color: rgb(49, 36, 4);
     padding: 12px 0;
     width: 100%;
    
+}
+.dark-theme .back{
+       background: rgb(80, 55, 9);
 }
 
 #navigation .content {
@@ -111,7 +157,7 @@ iframe {
     background-color: rgb(226, 194, 155);
 }
 .main_scrin{
-    background-image: url('../images/mainback.png');/* главня картинка*/
+    background-image: url('../images/mainback.png');/* Лицевая картинка*/
     width: 100%;
     height: auto;
     min-width: 80vw;
@@ -274,14 +320,14 @@ p2{
     margin-top: 0.3vw;
 }
 .image {
-  margin-right: 10px; 
+  margin-right: 10px; /* отступ между изображением и текстом */
 }
 a{
     text-emphasis: none;
     color: #845d2a;
 }
 .main-image {
-  background-image: url('../images/stock.jpg');
+  background-image: url('../images/stock.jpg');/*Скидки*/
   width: 100%;
   height: 92vh;
   background-size: cover;
@@ -391,7 +437,7 @@ input:focus {
     flex-direction: column;
 }
 .o_nas h3{
-    margin-top: 0%; 
+    margin-top: 0%;  /* Ален, за отступ отвечает этот параметр */
 }
 .o_nas1{
   background-image: url('../images/o_nas1.jpg');/*О нас*/
@@ -404,7 +450,7 @@ input:focus {
   margin-top: 100px;
   border-radius: 10%; 
   transition: all 0.3s ease;
-  margin-bottom: 0%;   
+  margin-bottom: 0%;    /* Ален, этот тоже отвечает за отступ */
   
 
 }
@@ -415,10 +461,10 @@ input:focus {
 .rabotnici{
 width: 80vw;
 height: auto;
-display: flex; 
-  flex-direction: row; 
-  justify-content: flex-end;
-  align-items: flex-end; 
+display: flex; /* Превращает блок в flex-контейнер */
+  flex-direction: row; /* Элементы в ряд (по умолчанию) */
+  justify-content: flex-end; /* Выравнивание по правому краю (по главной оси) */
+  align-items: flex-end; /* Выравнивание по нижнему краю (по поперечной оси) */
 margin-top: 15vh;
 }
 .rabotnic1{
@@ -472,14 +518,14 @@ margin-top: 15vh;
   font-size: 20px;
   margin-top: 10%;
   color: rgb(98, 65, 23);
-  text-align: left; 
+  text-align: left; /* Изменено с "center" на "left" */
 }
 
 .foto_rabotnic1, p {
   font-family: 'Montserrat', Arial, sans-serif;
   font-size: 16px;
   color: rgb(170, 129, 75);
-  text-align: left;
+  text-align: left; /* Изменено с "center" на "left" */
 }
 
 .card3{
@@ -571,7 +617,6 @@ width: 50%;
    width: 45vw;
    height: auto;
 }
-a{text-decoration: none;}
 .services{
   background: rgba(255, 255, 255, 0.8);
 height: 70vh;
@@ -581,11 +626,12 @@ align-items: center !important;
 flex-direction: column;
 margin-top: 3vh;
 }
+
 .services .main_serves{
-display: flex;
-  flex-direction: row !important; 
-  justify-content: center;
-  align-items: center;
+display: flex; /* Превращает блок в flex-контейнер */
+  flex-direction: row !important; /* Элементы в ряд (по умолчанию) */
+  justify-content: center; /* Выравнивание по правому краю (по главной оси) */
+  align-items: center; /* Выравнивание по нижнему краю (по поперечной оси) */
 }
 .services1{
     display: flex;
@@ -645,15 +691,15 @@ display: flex;
   font-family: 'Montserrat', Arial, sans-serif;
   font-size: 16px;
   color: rgb(170, 129, 75);
-  text-align: left;
+  text-align: left; /* Изменено с "center" на "left" */
 }
 .rabota{
 width: 80vw;
 height: auto;
-display: flex;
-  flex-direction: row;
-  justify-content: flex-end; 
-  align-items: flex-end; 
+display: flex; /* Превращает блок в flex-контейнер */
+  flex-direction: row; /* Элементы в ряд (по умолчанию) */
+  justify-content: flex-end; /* Выравнивание по правому краю (по главной оси) */
+  align-items: flex-end; /* Выравнивание по нижнему краю (по поперечной оси) */
 margin-top: 15vh;
 padding-top: 15vh;
 }
@@ -708,20 +754,20 @@ padding-top: 15vh;
   font-size: 20px;
   margin-top: 10%;
   color: rgb(98, 65, 23);
-  text-align: left;
+  text-align: left; /* Изменено с "center" на "left" */
 }
 
 .foto_rabota1, p {
   font-family: 'Montserrat', Arial, sans-serif;
   font-size: 16px;
   color: rgb(170, 129, 75);
-  text-align: left; 
+  text-align: left; /* Изменено с "center" на "left" */
 }
 .rabota .main_rabota{
-display: flex; 
-  flex-direction: row !important;
-  justify-content: center; 
-  align-items: center; 
+display: flex; /* Превращает блок в flex-контейнер */
+  flex-direction: row !important; /* Элементы в ряд (по умолчанию) */
+  justify-content: center; /* Выравнивание по правому краю (по главной оси) */
+  align-items: center; /* Выравнивание по нижнему краю (по поперечной оси) */
 }
 .rabota{
   background: rgba(255, 255, 255, 0.8);
@@ -732,6 +778,8 @@ align-items: center !important;
 flex-direction: column;
 margin-top: 3vh;
 }
+
+
 .sale{
   height: 90vh;
   display: flex;
@@ -765,6 +813,7 @@ margin-top: 3vh;
     margin-bottom: 40px;
     color: #5A4A3A;
 }
+/* Ladies Section */
 .ladies-section {
     margin-bottom: 80px;
 }
@@ -911,6 +960,7 @@ margin-top: 3vh;
     height: 100%;
     object-fit: cover;
 }
+/* Правая колонка */
 .column-right {
     flex: 1.2;
 }
@@ -929,14 +979,14 @@ margin-top: 3vh;
     margin-bottom: 20px;
 }
 .description {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Helvetica Neue', sans-serif;
     font-size: 16px;
     line-height: 1.6;
     margin-bottom: 40px;
     color: #5C4A34;
 }
 .price {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Helvetica Neue', sans-serif;
     font-size: 24px;
     margin-bottom: 30px;
     text-align: center;
@@ -964,6 +1014,7 @@ margin-top: 3vh;
     .page-title {
         font-size: 32px;
     }
+
 .main-content {
     max-width: 900px;
     margin: 0 auto;
@@ -1050,7 +1101,7 @@ margin-top: 3vh;
 }
 .column-links a {
     text-decoration: none;
-    color: #6B5540;
+    color: #77491f;
     font-size: 16px;
     transition: color 0.3s;
 }
@@ -1068,6 +1119,7 @@ margin-top: 3vh;
     color: #6B5540;
     line-height: 1.5;
 }
+
 .social-icons {
     display: flex;
     gap: 25px;
@@ -1087,320 +1139,8 @@ margin-top: 3vh;
     width: 28px;
     height: 28px;
 }
+a{text-decoration: none;}
 #position_nav{
 Display:flex;
 flex-direction:row;}
-
-/*Адаптив телефон*/
-@media (max-width: 767px) {
-    body {
-        overflow-x: hidden;
-    }
-    #navigation {
-        padding: 8px 0;
-    }
-
-    #navigation .content {
-        flex-direction: column !important;
-        padding: 0 10px;
-    }
-
-    #navigation .content #menu {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    #navigation a {
-        font-size: 4vw !important;
-        padding: 2vw 3vw !important;
-        margin: 2px;
-    }
-
-    #main_nav {
-        flex-wrap: wrap;
-        height: auto !important;
-        justify-content: center;
-        gap: 5px;
-    }
-
-    .logo img {
-        width: 6vw;
-        height: auto;
-    }
-
-    #navigation .icon_nav {
-        margin-top: 8px;
-        margin-left: 0 !important;
-    }
-    iframe {
-        height: 8vh !important;
-    }
-    .main_scrin {
-        min-height: 40vh;
-        border-radius: 0;
-        background-position: center;
-    }
-
-    .content {
-        padding-left: 5vw;
-        padding-right: 5vw;
-        width: 90vw;
-        margin-top: 2vh;
-    }
-
-    .text-glavnoe h1 {
-        font-size: 10vw !important;
-    }
-
-    .text-slogan p {
-        font-size: 4vw !important;
-    }
-
-    .cvadrat {
-        height: 15vw;
-    }
-    .registration-form {
-        width: 85vw;
-        height: auto;
-        padding: 6vw;
-        margin: 0 auto;
-    }
-    .reg {
-        min-height: 100vw;
-        justify-content: center;
-        background-position: center;
-    }
-    h1 {
-        font-size: 20px;
-    }
-    .form-group {
-        flex-direction: column;
-        align-items: flex-start;
-        width: 100%;
-    }
-
-    label {
-        font-size: 14px;
-    }
-
-    input {
-        font-size: 14px;
-        padding: 8px;
-        width: 90%;
-    }
-
-    .transparent-btn,
-    .transparent-btn1 {
-        width: 100%;
-        padding: 10px 16px;
-        font-size: 14px;
-    }
-    .rabotnici {
-        flex-direction: column;
-        align-items: center;
-        gap: 40px;
-        margin-top: 5vh;
-        width: 100%;
-        justify-content: center;
-    }
-    .rabotnic1, .rabotnic2, .rabotnic3 {
-        width: 80%;
-    }
-    .rabotnic1 .foto_rabotnic1,
-    .rabotnic2 .foto_rabotnic2,
-    .rabotnic3 .foto_rabotnic3 {
-        width: 60vw;
-        height: 35vh;
-    }
-
-    .foto_rabotnic1 h3, 
-    .foto_rabotnic1 p {
-        text-align: center !important;
-    }
-    .services {
-        height: auto;
-        padding: 20px;
-        margin-top: 2vh;
-    }
-    .services .main_serves {
-        flex-direction: column !important;
-        gap: 30px;
-    }
-    .services1, .services2, .services3 {
-        width: 80%;
-    }
-
-    .services1 .foto_services1,
-    .services2 .foto_services2,
-    .services3 .foto_services3 {
-        width: 50vw;
-        height: 25vh;
-    }
-    .rabota {
-        height: auto;
-        padding: 20px;
-        margin-top: 2vh;
-        width: 100%;
-    }
-
-    .rabota .main_rabota {
-        flex-direction: column !important;
-        gap: 30px;
-    }
-
-    .rabota1, .rabota2, .rabota3 {
-        width: 80%;
-    }
-
-    .rabota1 .foto_rabota1,
-    .rabota2 .foto_rabota2,
-    .rabota3 .foto_rabota3 {
-        width: 50vw;
-        height: 25vh;
-    }
-    .sale {
-        height: auto;
-        flex-direction: column;
-        align-items: center;
-        padding: 30px 15px;
-    }
-    .yslovie {
-        width: 90vw;
-        height: auto;
-        padding: 20px;
-        margin-right: 0;
-        margin-bottom: 20px;
-        backdrop-filter: blur(10px);
-    }
-
-    .yslovie h3, .yslovie p {
-        text-align: center;
-    }
-    .catalog1 {
-        min-height: auto;
-        height: auto;
-        padding: 20px;
-        width: 90%;
-    }
-
-    .catalog1 .pol {
-        flex-direction: column;
-        align-items: center;
-        gap: 30px;
-        margin: 20px;
-    }
-
-    .catalog1 img {
-        width: 70vw;
-    }
-
-    .catalog1 .acs img {
-        width: 80vw;
-    }
-    .main {
-        padding: 20px 15px;
-    }
-    .page-title {
-        font-size: 28px;
-        margin-bottom: 30px;
-    }
-    .style-item {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        gap: 20px;
-    }
-    .circle-image {
-        width: 200px;
-        height: 200px;
-    }
-    .style-content {
-        text-align: center;
-    }
-.products-grid {
-        grid-template-columns: 1fr;
-        gap: 20px;
-    }
-.product-image {
-        height: 250px;
-    }
-    .product-layout {
-        flex-direction: column;
-    }
-.image-large {
-        height: 300px;
-        border-radius: 20px;
-    }
-.column-middle {
-        flex-direction: row;
-        gap: 15px;
-    }
-.image-small {
-        height: 180px;
-    }
-.info-card {
-        padding: 25px;
-        border-radius: 20px;
-    }
- .style-title {
-        font-size: 20px;
-    }
- .price {
-        font-size: 20px;
-    }
-    .main-content {
-        padding: 20px 15px;
-    }
-    .page-title {
-        font-size: 28px;
-    }
-    .hero-image {
-        border-radius: 25px;
-    }
-    .slogan {
-        font-size: 22px;
-    }
-    .description {
-        font-size: 16px;
-    }
-    .about-text {
-        text-align: center;
-    }
-    .footer {
-        padding: 30px 20px;
-        width: 100%;
-    }
-    .footer-container {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        gap: 25px;
-    }
-    .footer-column {
-        text-align: center;
-    }
-    .social-icons {
-        justify-content: center;
-    }
-    .o_nas1 {
-        min-width: 80vw;
-        min-height: 50vh;
-        margin-top: 30px;
-    }
-    .card3, .catalog1 {
-        min-height: auto;
-    }
-    h3, p {
-        text-align: center;
-    }
-    .container {
-        flex-direction: column;
-        text-align: center;
-    }
-    .text-zagolovci {
-        font-size: 30px;
-    }
-    .h3 {
-        font-size: 30px;
-    }
-}
+ 

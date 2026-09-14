@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <link rel="stylesheet" href="../ASSETS/css/style.css">
+    <link rel="stylesheet" href="../content/css/style.css">
     <meta charset="utf-8">
     <title> Моё портфолио</title>
     <meta name="description"
@@ -11,11 +11,8 @@
 <body>
    
 <div class="back">
-    <iframe src="../Pages/navigation.html" width="100%" style="display: block; border: none; height: 60px;"></iframe>
+    <iframe src="navigation.php" width="100%" style="display: block; border: none; height: 60px;"></iframe>
     <div class="content">
-   
- 
-  
      <div class="text-slogan">
    <p>О нас</p></div>
     <div class="o_nas1"></div>
@@ -40,10 +37,10 @@
             </p>
         </div>
     </main>
-   <footer class="footer">
+ <footer class="footer">
         <div class="footer-container">
             <div class="footer-logo">
-                <a href="#"><img src="../ASSETS/images/logo.png"></a>
+                <a href="#"><img src="../content/images/logo.png"></a>
             </div>
             <div class="footer-column">
                 <h3 class="column-title">Информация</h3>
@@ -60,12 +57,11 @@
             <div class="footer-column">
                 <h3 class="column-title">Соц. сети</h3>
                 <div class="social-icons">
-                    <a href="#"><img src="../ASSETS/images/tvit.png"></a>
-        <a href="#"><img src="../ASSETS/images/tg.png"></a>
-        <a href="#"><img src="../ASSETS/images/ynub.png"></a>
+                    <a href="#"><img src="../content/images/tvit.png"></a>
+        <a href="#"><img src="../content/images/tg.png"></a>
+        <a href="#"><img src="../content/images/ynub.png"></a>
                 </div>
-            </div>
-        </div>
-    </footer>
+   
+
 </body>
 </html>
