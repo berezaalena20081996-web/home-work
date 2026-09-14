@@ -1,4 +1,8 @@
-
+<?php
+$hour = (int) date('G');
+// Переключаем класс в зависимости от времени
+$themeClass = ($hour >= 1 && $hour <9 ) ? 'light-theme' : 'dark-theme';
+?>
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -10,7 +14,7 @@
     <meta name="author" content="Береза Алёна Олеговна">
 </head> 
 <body>
-   
+   <div class="<?php echo $themeClass; ?>">
 <div class="back">
     <div class="text-navig">
    <iframe src="./pages/navigation.php" width="100%" style="display: block; border: none; height: 60px;"></iframe></div>
@@ -184,6 +188,6 @@
         </div>
 
     </footer>
-   
+   </div>
 </body>
 </html>
