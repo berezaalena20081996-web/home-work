@@ -1,193 +1,159 @@
 <?php
 $hour = (int) date('G');
 // Переключаем класс в зависимости от времени
-$themeClass = ($hour >= 1 && $hour <9 ) ? 'light-theme' : 'dark-theme';
+$themeClass = ($hour >= 22 && $hour < 24) ? 'light-theme' : 'dark-theme';
 ?>
 <!DOCTYPE html>
 <html lang="ru">
 <head>
     <link rel="stylesheet" href="content/css/style.css">
     <meta charset="utf-8">
-    <title> Моё портфолио</title>
+    <title>Моё портфолио</title>
     <meta name="description"
-        content="Сай на тему Винтажный магазин одежды.Он создан для развлекательных целей и не несет вреда потребителю">
+        content="Сайт на тему Винтажный магазин одежды. Он создан для развлекательных целей и не несет вреда потребителю">
     <meta name="author" content="Береза Алёна Олеговна">
-</head> 
+</head>
 <body>
-   <div class="<?php echo $themeClass; ?>">
-<div class="back">
-    <div class="text-navig">
-   <iframe src="./pages/navigation.php" width="100%" style="display: block; border: none; height: 60px;"></iframe></div>
-   <div class="content">
-   <div class="main_scrin">
-     <div class="text-glavnoe">
-    <h1> СТАРАЯ ШКОЛА</h1>
-    <div class="text-slogan_glavnoe">
-    <p>Одежда с историей и душой </p></div>
-    <div class="cvadrat">
-        <div class="text-card">
-            <div class="card2">    
-  <button class="transparent-btn">
-   <a href="catalog.php"> дотронуться до истории</button></a> </div>
-</div>
-    </div>
-   </div>
-    </div>
-      <div class="card3">
-   <div class="text-slogan">
-    <p>О нас </p></div>
-       <div class="card4">
-       </div>
-<div class="rabotnici">
-    <div class="rabotnic1">
-        <div class="foto_rabotnic1"></div>
-        <h3>Кузнецова Мария</h3>
-        <p>Стилист
-    Творческая натура с безупречным вкусом.
-  Мария помогает клиенткам создавать уникальные образы, 
-  сочетая винтаж с современными тенденциями.</p>
-    </div>
-     <div class="rabotnic2">
-        <div class="foto_rabotnic2"></div>
-         <h3>Петрова Анна</h3>
-        <p>Реставратор
-Мастер с золотыми руками. 
-Анна бережно восстанавливает и сохраняет 
-аутентичность каждой вещи,
- чтобы она прожила ещё одну жизнь.</p>
-    </div>
-     <div class="rabotnic3">
-        <div class="foto_rabotnic3"></div>
-        <h3>Иванова Елена</h3>
-        <p>Куратор
-Изысканная и элегантная.
- Елена знает историю каждого платья в магазине,
- может рассказать о моде 17-19 веков и помочь найти 
- ту самую «вещь с характером».</p>
-    </div>
-</div>   
-</div>
-<div class="catalog1">
-    <div class="text-slogan">
-    <p>Каталог </p></div>
-    <div class="pol">
-        <div class="women">
-        <img src="./content/images/women.png">
-     <a href="women.php"><button class="transparent-btn1">
-    женская</button></a>
-</div>
-<div class="men">
-    <img src="./content/images/men.png">
-    <a href="man.php"><button class="transparent-btn1">
-    мужская</button></a>
-</div>
-    </div>
-    <div class="acs">
-        <img src="./content/images/acs.png">
-    <a href="akk.php"><button class="transparent-btn1">
-    аксессуары</button></a>
-    </div>
-</div>
-<div class="services">
-    
-     <div class="text-slogan">
-    <p>Услуги</p></div>
-    <div class="main_serves">
-    <div class="services1">
-        <div class="foto_services1"></div>
-        <h3>Пошив</h3>
-        <p> Наши мастера сошьют уникальные вещи на заказ
-     из архивных тканей или 
-    стильно преобразят классические модели под современные силуэты.</p>
-    </div>
-     <div class="services2">
-        <div class="foto_services2"></div>
-         <h3>Аренда</h3>
-        <p>Возьмите напрокат уникальные
-             винтажные платья и костюмы из нашей коллекции,
-              чтобы создать незабываемый 
-            образ для любого особенного случая. </p>
-    </div>
-     <div class="services3">
-        <div class="foto_services3"></div>
-        <h3>Реставрация</h3>
-        <p>Наши мастера бережно восстанавливают потёртые и повреждённые
-             винтажные вещи, тщательно сохраняя их историческую
-              аутентичность и оригинальный характер. </p>
-    </div>
-    
-</div>
-</div> 
-<div class="rabota">
-    
-     <div class="text-rabota">
-    <p>Мои проекты </p></div>
-    <div class="main_rabota">
-    <div class="rabota1">
-        <div class="foto_rabota1"></div>
-        <h3>Бриджертоны</h3>
-        <p> Наши мастера воссоздали дух 
-            британского регентства, разработав и пошив для сериала 
-            «Бриджертоны» десятки исторически достоверных костюмов.</p>
-    </div>
-     <div class="rabota2">
-        <div class="foto_rabota2"></div>
-         <h3>Маленькие женщины</h3>
-        <p>
-Для кинематографического воплощения 
-«Маленьких женщин» наша команда кропотливо
- воссоздала гардероб эпохи 1860-х, где каждый корсаж,
-  кринолин и повседневный наряд сшиты с безупречным вниманием. </p>
-    </div>
-     <div class="rabota3">
-        <div class="foto_rabota3"></div>
-        <h3>Гордость и предубеждение</h3>
-        <p>Для экранизации «Гордости и предубеждения» 
-            наша команда создала коллекцию костюмов эпохи Регентства,
-             где каждый струящийся муслиновый наряд и строгий мужской 
-            сюртук точно передают дух начала XIX века. </p>
-    </div>  
-</div>
-<div class="card2">    
-</div>
-    <div class="o_nas">
-    <div class="cvadrat1"></div>     
-</div>
+<div class="<?php echo $themeClass; ?>">
+    <div class="back">
 
+        <!-- Навигация через iframe -->
+        <div class="text-navig">
+          <iframe src="./pages/navigation.php" width="100%"
+        style="display: block; border: none; height: 100px;"></iframe>
+        </div>
 
-</div>
-</div>
-
-</div> 
-
-    <footer class="footer">
-        <div class="footer-container">
-            <div class="footer-logo">
-                <a href="#"><img src="../content/images/logo.png"></a>
+        <div class="content">
+            <div class="main_scrin">
+                <div class="text-glavnoe">
+                    <h1>СТАРАЯ ШКОЛА</h1>
+                    <div class="text-slogan_glavnoe">
+                        <p>Одежда с историей и душой</p>
+                    </div>
+                    <div class="cvadrat">
+                        <div class="text-card">
+                            <div class="card2">
+                                <a href="catalog.php">
+                                    <button class="transparent-btn">дотронуться до истории</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="footer-column">
-                <h3 class="column-title">Информация</h3>
-                <ul class="column-links">
-                    <li><a href="#">О нас</a></li>
-                    <li><a href="#">Каталог</a></li>
-                </ul>
+
+            <div class="card3">
+                <div class="text-slogan"><p>О нас</p></div>
+                <div class="card4"></div>
+                <div class="rabotnici">
+                    <div class="rabotnic1">
+                        <div class="foto_rabotnic1"></div>
+                        <h3>Кузнецова Мария</h3>
+                        <p>Стилист. Творческая натура с безупречным вкусом.
+                           Мария помогает клиенткам создавать уникальные образы,
+                           сочетая винтаж с современными тенденциями.</p>
+                    </div>
+                    <div class="rabotnic2">
+                        <div class="foto_rabotnic2"></div>
+                        <h3>Петрова Анна</h3>
+                        <p>Реставратор. Мастер с золотыми руками.
+                           Анна бережно восстанавливает и сохраняет
+                           аутентичность каждой вещи, чтобы она прожила ещё одну жизнь.</p>
+                    </div>
+                    <div class="rabotnic3">
+                        <div class="foto_rabotnic3"></div>
+                        <h3>Иванова Елена</h3>
+                        <p>Куратор. Изысканная и элегантная.
+                           Елена знает историю каждого платья в магазине,
+                           может рассказать о моде 17–19 веков и помочь найти
+                           ту самую «вещь с характером».</p>
+                    </div>
+                </div>
             </div>
-            <div class="footer-column">
-                <h3 class="column-title">Контакты</h3>
-                <p class="contact-phone">+7 xxx-xxx-xx-xx</p>
-                <p class="contact-address">г. Магнитогорск<br>Челябинская обл.</p>
+
+            <div class="catalog1">
+                <div class="text-slogan"><p>Каталог</p></div>
+                <div class="pol">
+                    <div class="women">
+                        <img src="./content/images/women.png" alt="Женская">
+                        <a href="women.php"><button class="transparent-btn1">женская</button></a>
+                    </div>
+                    <div class="men">
+                        <img src="./content/images/men.png" alt="Мужская">
+                        <a href="man.php"><button class="transparent-btn1">мужская</button></a>
+                    </div>
+                </div>
+                <div class="acs">
+                    <img src="./content/images/acs.png" alt="Аксессуары">
+                    <a href="akk.php"><button class="transparent-btn1">аксессуары</button></a>
+                </div>
             </div>
-            <div class="footer-column">
-                <h3 class="column-title">Соц. сети</h3>
-                <div class="social-icons">
-                    <a href="#"><img src="../content/images/tvit.png"></a>
-        <a href="#"><img src="../content/images/tg.png"></a>
-        <a href="#"><img src="../content/images/ynub.png"></a>
+
+            <div class="services">
+                <div class="text-slogan"><p>Услуги</p></div>
+                <div class="main_serves">
+                    <div class="services1">
+                        <div class="foto_services1"></div>
+                        <h3>Пошив</h3>
+                        <p>Наши мастера сошьют уникальные вещи на заказ
+                           из архивных тканей или стильно преобразят
+                           классические модели под современные силуэты.</p>
+                    </div>
+                    <div class="services2">
+                        <div class="foto_services2"></div>
+                        <h3>Аренда</h3>
+                        <p>Возьмите напрокат уникальные винтажные платья и костюмы
+                           из нашей коллекции, чтобы создать незабываемый
+                           образ для любого особенного случая.</p>
+                    </div>
+                    <div class="services3">
+                        <div class="foto_services3"></div>
+                        <h3>Реставрация</h3>
+                        <p>Наши мастера бережно восстанавливают потёртые и повреждённые
+                           винтажные вещи, тщательно сохраняя их историческую
+                           аутентичность и оригинальный характер.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="rabota">
+                <div class="text-rabota"><p>Мои проекты</p></div>
+                <div class="main_rabota">
+                    <div class="rabota1">
+                        <div class="foto_rabota1"></div>
+                        <h3>Бриджертоны</h3>
+                        <p>Наши мастера воссоздали дух британского регентства,
+                           разработав и пошив для сериала «Бриджертоны»
+                           десятки исторически достоверных костюмов.</p>
+                    </div>
+                    <div class="rabota2">
+                        <div class="foto_rabota2"></div>
+                        <h3>Маленькие женщины</h3>
+                        <p>Для кинематографического воплощения «Маленьких женщин»
+                           наша команда кропотливо воссоздала гардероб эпохи 1860-х,
+                           где каждый корсаж, кринолин и повседневный наряд
+                           сшиты с безупречным вниманием.</p>
+                    </div>
+                    <div class="rabota3">
+                        <div class="foto_rabota3"></div>
+                        <h3>Гордость и предубеждение</h3>
+                        <p>Для экранизации «Гордости и предубеждения»
+                           наша команда создала коллекцию костюмов эпохи Регентства,
+                           где каждый струящийся муслиновый наряд и строгий мужской
+                           сюртук точно передают дух начала XIX века.</p>
+                    </div>
+                </div>
+
+                <div class="card2"></div>
+                <div class="o_nas">
+                    <div class="cvadrat1"></div>
                 </div>
             </div>
         </div>
+    </div>
 
-    </footer>
-   </div>
+    <?php include 'pages/footer.php'; ?>
+
+</div>
 </body>
 </html>
