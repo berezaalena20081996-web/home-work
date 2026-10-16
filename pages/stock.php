@@ -1,34 +1,25 @@
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-    <link rel="stylesheet" href="../content/css/style.css">
-    <meta charset="utf-8">
-    <title> Моё портфолио</title>
-    <meta name="description"
-        content="Сай на тему Винтажный магазин одежды.Он создан для развлекательных целей и не несет вреда потребителю">
-    <meta name="author" content="Береза Алёна Олеговна">
-</head> 
-<body>
-   
-   <iframe src="navigation.php" width="100%" style="display: block; border: none; height: 60px;"></iframe>
-   <div class="actia">
-   <div class="main-image">
-    <div class="content">
-        <div class="sale">
-        <div class="yslovie">
-               <div class="text-akzii">
-    <h3>Вечная элегантность — со скидкой </h3>
-<p4>В «Старой Школе» — особое предложение для тех,
-     кто хочет сказать «да» в наряде с историей.
-     Подлинные винтажные свадебные платья, фаты 
-     и аксессуары прошлых эпох ждут своего часа. </p4>
-     <p5>–20% на всю 
-свадебную коллекцию</p5>
-</div>
+<?php
+$title = 'Акция';
+$base = '../';
+require __DIR__ . '/../include/navigation.php';
+?>
+
+<div class="actia">
+    <div class="main-image">
+        <div class="content">
+            <div class="sale">
+                <div class="yslovie">
+                    <div class="text-akzii">
+                        <h3>Вечная элегантность — со скидкой</h3>
+                        <p>В «Старой Школе» — особое предложение для тех, кто хочет сказать «да» в наряде с историей. Подлинные винтажные свадебные платья, фаты и аксессуары прошлых эпох ждут своего часа.</p>
+                        <p>–20% на всю свадебную коллекцию</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-   </div>
-   </div>
+</div>
+
+<?php require __DIR__ . '/../include/footer.php'; ?>
 </body>
 </html>

@@ -1,28 +1,7 @@
 <?php
-$hour = (int) date('G');
-// Переключаем класс в зависимости от времени
-$themeClass = ($hour >= 22 && $hour < 24) ? 'light-theme' : 'dark-theme';
+$title = 'Главная';
+require __DIR__ . '/include/navigation.php';
 ?>
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-    <link rel="stylesheet" href="content/css/style.css">
-    <meta charset="utf-8">
-    <title>Моё портфолио</title>
-    <meta name="description"
-        content="Сайт на тему Винтажный магазин одежды. Он создан для развлекательных целей и не несет вреда потребителю">
-    <meta name="author" content="Береза Алёна Олеговна">
-</head>
-<body>
-<div class="<?php echo $themeClass; ?>">
-    <div class="back">
-
-        <!-- Навигация через iframe -->
-        <div class="text-navig">
-          <iframe src="./pages/navigation.php" width="100%"
-        style="display: block; border: none; height: 100px;"></iframe>
-        </div>
-
         <div class="content">
             <div class="main_scrin">
                 <div class="text-glavnoe">
@@ -152,8 +131,10 @@ $themeClass = ($hour >= 22 && $hour < 24) ? 'light-theme' : 'dark-theme';
         </div>
     </div>
 
-    <?php include 'pages/footer.php'; ?>
-
+    <?php
+$title = 'Главная';
+require __DIR__ . '/include/footer.php';
+?>
 </div>
 </body>
 </html>
