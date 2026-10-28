@@ -137,7 +137,6 @@ require __DIR__ . '/include/footer.php';
 ?>
 
 <?php
-// PHP-часть для даты (задание 4)
 $date = new DateTimeImmutable('today');
 $nextnewyear = new DateTimeImmutable(($date->format('Y') + 1) . '-01-01');
 $daysleft = $date->diff($nextnewyear)->days;
