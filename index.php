@@ -135,6 +135,67 @@ require __DIR__ . '/include/navigation.php';
 $title = 'Главная';
 require __DIR__ . '/include/footer.php';
 ?>
+
+<?php
+// PHP-часть для даты (задание 4)
+$date = new DateTimeImmutable('today');
+$nextnewyear = new DateTimeImmutable(($date->format('Y') + 1) . '-01-01');
+$daysleft = $date->diff($nextnewyear)->days;
+?>
+<div class="footer-date">
+    <p>Сейчас: <?= $date->format('d.m.Y') ?></p>
+    <p>До Нового года: <?= $daysleft ?> дней</p>
+</div>
 </div>
 </body>
 </html>
+<script>
+// Задание1
+let abzac = document.querySelector('.text-slogan_glavnoe p');
+if (abzac) {
+    let tekst = abzac.innerText;
+    let slova = tekst.split(' ');
+    let nowtekst = '';
+    for (let i = 0; i < slova.length; i++) {
+        if (i % 2 === 0) {
+            nowtekst += '<span style="color: #FFFDD0;">' + slova[i] + '</span> ';
+        } else {
+            nowtekst += '<span style="color: #000000;">' + slova[i] + '</span> ';
+        }
+    }
+    abzac.innerHTML = nowtekst;
+}
+
+// Задание2
+//Задание3
+let vesTekst = document.body.innerText;
+let kolichestvoSlov = vesTekst.split(/\s+/).filter(Boolean).length;
+let glasnye = "аеёиоуыэюя";
+let schetchik = 0;
+let nowtext = vesTekst.toLowerCase();
+for (let i = 0; i < nowtext.length; i++) {
+    if (glasnye.includes(nowtext[i])) {
+        schetchik++;
+    }
+}
+
+let nashFooter = document.querySelector('.footer'); 
+
+// Задание4
+let date = new Date();
+let tekushayadata = date.toLocaleDateString('ru-RU');
+let sleduyushiyGod = date.getFullYear() + 1;
+let novyyGod = new Date(sleduyushiyGod, 0, 1);
+let raznica = novyyGod - date;
+let dneyDoNovogoGoda = Math.ceil(raznica / (1000 * 60 * 60 * 24));
+
+if (nashFooter) {
+    let rezultat = document.createElement('p');
+    rezultat.innerText = "Количество гласных букв: " + schetchik;
+    nashFooter.appendChild(rezultat);
+
+    nashFooter.innerHTML += " Слов: " + kolichestvoSlov;
+} else {
+    console.log("Гласных: " + schetchik);
+}
+</script>
