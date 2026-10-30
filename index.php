@@ -2,139 +2,199 @@
 $title = 'Главная';
 require __DIR__ . '/include/navigation.php';
 ?>
-        <div class="content">
-            <div class="main_scrin">
-                <div class="text-glavnoe">
-                    <h1>СТАРАЯ ШКОЛА</h1>
-                    <div class="text-slogan_glavnoe">
-                        <p>Одежда с историей и душой</p>
-                    </div>
-                    <div class="cvadrat">
-                        <div class="text-card">
-                            <div class="card2">
-                                <a href="catalog.php">
-                                    <button class="transparent-btn">дотронуться до истории</button>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+<div class="content">
+    <div class="main_scrin">
+        <div class="text-glavnoe">
+            <h1>СТАРАЯ ШКОЛА</h1>
+            <div class="text-slogan_glavnoe">
+                <!-- Текст для Заданий 1, 2, 3 -->
+                <p>Одежда с историей и душой. Мы бережно сохраняем наследие прошлого и делимся им с вами.</p>
             </div>
-
-            <div class="card3">
-                <div class="text-slogan"><p>О нас</p></div>
-                <div class="card4"></div>
-                <div class="rabotnici">
-                    <div class="rabotnic1">
-                        <div class="foto_rabotnic1"></div>
-                        <h3>Кузнецова Мария</h3>
-                        <p>Стилист. Творческая натура с безупречным вкусом.
-                           Мария помогает клиенткам создавать уникальные образы,
-                           сочетая винтаж с современными тенденциями.</p>
+            <div class="cvadrat">
+                <div class="text-card">
+                    <div class="card2">
+                        <a href="catalog.php">
+                            <button class="transparent-btn">дотронуться до истории</button>
+                        </a>
                     </div>
-                    <div class="rabotnic2">
-                        <div class="foto_rabotnic2"></div>
-                        <h3>Петрова Анна</h3>
-                        <p>Реставратор. Мастер с золотыми руками.
-                           Анна бережно восстанавливает и сохраняет
-                           аутентичность каждой вещи, чтобы она прожила ещё одну жизнь.</p>
-                    </div>
-                    <div class="rabotnic3">
-                        <div class="foto_rabotnic3"></div>
-                        <h3>Иванова Елена</h3>
-                        <p>Куратор. Изысканная и элегантная.
-                           Елена знает историю каждого платья в магазине,
-                           может рассказать о моде 17–19 веков и помочь найти
-                           ту самую «вещь с характером».</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="catalog1">
-                <div class="text-slogan"><p>Каталог</p></div>
-                <div class="pol">
-                    <div class="women">
-                        <img src="./content/images/women.png" alt="Женская">
-                        <a href="women.php"><button class="transparent-btn1">женская</button></a>
-                    </div>
-                    <div class="men">
-                        <img src="./content/images/men.png" alt="Мужская">
-                        <a href="man.php"><button class="transparent-btn1">мужская</button></a>
-                    </div>
-                </div>
-                <div class="acs">
-                    <img src="./content/images/acs.png" alt="Аксессуары">
-                    <a href="akk.php"><button class="transparent-btn1">аксессуары</button></a>
-                </div>
-            </div>
-
-            <div class="services">
-                <div class="text-slogan"><p>Услуги</p></div>
-                <div class="main_serves">
-                    <div class="services1">
-                        <div class="foto_services1"></div>
-                        <h3>Пошив</h3>
-                        <p>Наши мастера сошьют уникальные вещи на заказ
-                           из архивных тканей или стильно преобразят
-                           классические модели под современные силуэты.</p>
-                    </div>
-                    <div class="services2">
-                        <div class="foto_services2"></div>
-                        <h3>Аренда</h3>
-                        <p>Возьмите напрокат уникальные винтажные платья и костюмы
-                           из нашей коллекции, чтобы создать незабываемый
-                           образ для любого особенного случая.</p>
-                    </div>
-                    <div class="services3">
-                        <div class="foto_services3"></div>
-                        <h3>Реставрация</h3>
-                        <p>Наши мастера бережно восстанавливают потёртые и повреждённые
-                           винтажные вещи, тщательно сохраняя их историческую
-                           аутентичность и оригинальный характер.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="rabota">
-                <div class="text-rabota"><p>Мои проекты</p></div>
-                <div class="main_rabota">
-                    <div class="rabota1">
-                        <div class="foto_rabota1"></div>
-                        <h3>Бриджертоны</h3>
-                        <p>Наши мастера воссоздали дух британского регентства,
-                           разработав и пошив для сериала «Бриджертоны»
-                           десятки исторически достоверных костюмов.</p>
-                    </div>
-                    <div class="rabota2">
-                        <div class="foto_rabota2"></div>
-                        <h3>Маленькие женщины</h3>
-                        <p>Для кинематографического воплощения «Маленьких женщин»
-                           наша команда кропотливо воссоздала гардероб эпохи 1860-х,
-                           где каждый корсаж, кринолин и повседневный наряд
-                           сшиты с безупречным вниманием.</p>
-                    </div>
-                    <div class="rabota3">
-                        <div class="foto_rabota3"></div>
-                        <h3>Гордость и предубеждение</h3>
-                        <p>Для экранизации «Гордости и предубеждения»
-                           наша команда создала коллекцию костюмов эпохи Регентства,
-                           где каждый струящийся муслиновый наряд и строгий мужской
-                           сюртук точно передают дух начала XIX века.</p>
-                    </div>
-                </div>
-
-                <div class="card2"></div>
-                <div class="o_nas">
-                    <div class="cvadrat1"></div>
                 </div>
             </div>
         </div>
     </div>
 
-    <?php
+    <div class="card3">
+        <div class="text-slogan"><p>О нас</p></div>
+        <div class="card4"></div>
+        <div class="rabotnici">
+            <div class="rabotnic1">
+                <div class="foto_rabotnic1"></div>
+                <h3>Кузнецова Мария</h3>
+                <p>Стилист. Творческая натура с безупречным вкусом.
+                    Мария помогает клиенткам создавать уникальные образы,
+                    сочетая винтаж с современными тенденциями.</p>
+            </div>
+            <div class="rabotnic2">
+                <div class="foto_rabotnic2"></div>
+                <h3>Петрова Анна</h3>
+                <p>Реставратор. Мастер с золотыми руками.
+                    Анна бережно восстанавливает и сохраняет
+                    аутентичность каждой вещи, чтобы она прожила ещё одну жизнь.</p>
+            </div>
+            <div class="rabotnic3">
+                <div class="foto_rabotnic3"></div>
+                <h3>Иванова Елена</h3>
+                <p>Куратор. Изысканная и элегантная.
+                    Елена знает историю каждого платья в магазине,
+                    может рассказать о моде 17–19 веков и помочь найти
+                    ту самую «вещь с характером».</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="catalog1">
+        <div class="text-slogan"><p>Каталог</p></div>
+        <div class="pol">
+            <div class="women">
+                <img src="./content/images/women.png" alt="Женская">
+                <a href="women.php"><button class="transparent-btn1">женская</button></a>
+            </div>
+            <div class="men">
+                <img src="./content/images/men.png" alt="Мужская">
+                <a href="man.php"><button class="transparent-btn1">мужская</button></a>
+            </div>
+        </div>
+        <div class="acs">
+            <img src="./content/images/acs.png" alt="Аксессуары">
+            <a href="akk.php"><button class="transparent-btn1">аксессуары</button></a>
+        </div>
+    </div>
+
+    <div class="services">
+        <div class="text-slogan"><p>Услуги</p></div>
+        <div class="main_serves">
+            <div class="services1">
+                <div class="foto_services1"></div>
+                <h3>Пошив</h3>
+                <p>Наши мастера сошьют уникальные вещи на заказ
+                    из архивных тканей или стильно преобразят
+                    классические модели под современные силуэты.</p>
+            </div>
+            <div class="services2">
+                <div class="foto_services2"></div>
+                <h3>Аренда</h3>
+                <p>Возьмите напрокат уникальные винтажные платья и костюмы
+                    из нашей коллекции, чтобы создать незабываемый
+                    образ для любого особенного случая.</p>
+            </div>
+            <div class="services3">
+                <div class="foto_services3"></div>
+                <h3>Реставрация</h3>
+                <p>Наши мастера бережно восстанавливают потёртые и повреждённые
+                    винтажные вещи, тщательно сохраняя их историческую
+                    аутентичность и оригинальный характер.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="rabota">
+        <div class="text-rabota"><p>Мои проекты</p></div>
+        <div class="main_rabota">
+            <div class="rabota1">
+                <div class="foto_rabota1"></div>
+                <h3>Бриджертоны</h3>
+                <p>Наши мастера воссоздали дух британского регентства,
+                    разработав и пошив для сериала «Бриджертоны»
+                    десятки исторически достоверных костюмов.</p>
+            </div>
+            <div class="rabota2">
+                <div class="foto_rabota2"></div>
+                <h3>Маленькие женщины</h3>
+                <p>Для кинематографического воплощения «Маленьких женщин»
+                    наша команда кропотливо воссоздала гардероб эпохи 1860-х,
+                    где каждый корсаж, кринолин и повседневный наряд
+                    сшиты с безупречным вниманием.</p>
+            </div>
+            <div class="rabota3">
+                <div class="foto_rabota3"></div>
+                <h3>Гордость и предубеждение</h3>
+                <p>Для экранизации «Гордости и предубеждения»
+                    наша команда создала коллекцию костюмов эпохи Регентства,
+                    где каждый струящийся муслиновый наряд и строгий мужской
+                    сюртук точно передают дух начала XIX века.</p>
+            </div>
+        </div>
+
+        <div class="card2"></div>
+        <div class="o_nas">
+            <div class="cvadrat1"></div>
+        </div>
+    </div>
+</div>
+</div>
+
+<?php
 $title = 'Главная';
 require __DIR__ . '/include/footer.php';
 ?>
+
+<?php
+//Задание 4
+$date = new DateTimeImmutable('today');
+$nextnewyear = new DateTimeImmutable(($date->format('Y') + 1) . '-01-01');
+$daysleft = $date->diff($nextnewyear)->days;
+?>
+<div class="footer-date">
+    <p>Сейчас: <?= $date->format('d.m.Y') ?></p>
+    <p>До Нового года: <?= $daysleft ?> дней</p>
+</div>
 </div>
 </body>
 </html>
+<script>
+    // Задание 1
+    let abzac = document.querySelector('.text-slogan_glavnoe p');
+    if (abzac) {
+        let tekst = abzac.innerText;
+        let slova = tekst.split(' ');
+        let nowtekst = '';
+        for (let i = 0; i < slova.length; i++) {
+            if (i % 2 === 0) {
+                nowtekst += '<span style="color: #613700;">' + slova[i] + '</span> ';
+            } else {
+                nowtekst += '<span style="color: #ffc88b;">' + slova[i] + '</span> ';
+            }
+        }
+        abzac.innerHTML = nowtekst;
+    }
+
+    // Задание 2/3
+    let vesTekst = document.body.innerText;
+    let kolichestvoSlov = vesTekst.split(/\s+/).filter(Boolean).length;
+    let glasnye = "аеёиоуыэюя";
+    let schetchik = 0;
+    let nowtext = vesTekst.toLowerCase();
+    for (let i = 0; i < nowtext.length; i++) {
+        if (glasnye.includes(nowtext[i])) {
+            schetchik++;
+        }
+    }
+    let nashFooter = document.querySelector('.footer');
+
+    // Задание 4
+    let date = new Date();
+    let tekushayadata = date.toLocaleDateString('ru-RU');
+    let sleduyushiyGod = date.getFullYear() + 1;
+    let novyyGod = new Date(sleduyushiyGod, 0, 1);
+    let raznica = novyyGod - date;
+    let dneyDoNovogoGoda = Math.ceil(raznica / (1000 * 60 * 60 * 24));
+
+    if (nashFooter) {
+        let rezultat = document.createElement('p');
+        rezultat.innerText = "Количество гласных букв (JS): " + schetchik;
+        nashFooter.appendChild(rezultat);
+
+        nashFooter.innerHTML += " Слов (JS): " + kolichestvoSlov;
+    } else {
+        console.log("Гласных: " + schetchik + ", Слов: " + kolichestvoSlov);
+    }
+</script>

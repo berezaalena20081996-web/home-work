@@ -14,6 +14,7 @@
         </div>
         <div class="footer-column">
             <h3 class="column-title">Контакты</h3>
+            <p></p>
             <p class="contact-phone">+7 xxx-xxx-xx-xx</p>
             <p class="contact-address">г. Магнитогорск<br>Челябинская обл.</p>
         </div>
